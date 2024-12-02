@@ -1,0 +1,13 @@
+[2024.12.01 20:06:26] Launched version: 5007002, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2024.12.01 20:06:26] Executable dir: C:/Users/ADMIN/Desktop/what we need/bot/config/, name: Telegram.exe
+[2024.12.01 20:06:26] Initial working dir: C:/WINDOWS/system32/
+[2024.12.01 20:06:26] Working dir: C:/Users/ADMIN/Desktop/what we need/bot/config/
+[2024.12.01 20:06:26] Command line: C:\Users\ADMIN\Desktop\what we need\bot\config\Telegram.exe -- tg://resolve/?domain=BENZOYOLO
+[2024.12.01 20:06:26] Executable path before check: C:/Users/ADMIN/Desktop/what we need/bot/config/Telegram.exe
+[2024.12.01 20:06:26] Logs started
+[2024.12.01 20:06:26] AppUserModelID: Telegram.TelegramDesktop.a2abea323ace6a935fa4a5e393f1171b
+[2024.12.01 20:06:26] Using DirectX compiler 'C:\WINDOWS\SYSTEM32\d3dcompiler_47.dll'.
+[2024.12.01 20:06:26] Connecting local socket to Global\4ec96a68fb9c80ae6b3b402da9cd617b-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2024.12.01 20:06:26] Socket connected, this is not the first application instance, sending show command...
+[2024.12.01 20:06:26] Show command written, waiting response...
+[2024.12.01 20:06:26] Show command response received, processId = 7244, windowId = 263718, activating and quitting...
