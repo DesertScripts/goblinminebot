@@ -10,8 +10,8 @@ API_HASH: str
 SLEEP_TIME: list[int] = [3600, 7200]
 START_DELAY: list[int] = [5, 25]
 
- USE_RANDOM_DELAY_IN_RUN: bool = True
- RANDOM_DELAY_IN_RUN: list[int] = [30, 60]
+USE_RANDOM_DELAY_IN_RUN: bool = True
+RANDOM_DELAY_IN_RUN: list[int] = [30, 60]
 
 
 AUTO_TASK: bool = True
