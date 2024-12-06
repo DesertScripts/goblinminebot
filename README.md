@@ -1,4 +1,4 @@
-# 🥇GOBLIN MINE AUTO FARM BOT🥇
+# 🥇NEW NOTPIXEL AUTOFARM BOT🥇
 
 [![Static Badge](https://img.shields.io/badge/Telegram-Channel-Link?style=for-the-badge&logo=Telegram&logoColor=white&logoSize=auto&color=blue)](https://t.me/+9j5RcKMfT5s4M2Q0)
 
@@ -13,12 +13,12 @@
 | Multithread                    |     ✅     |
 | Proxy.txt support              |     ✅     |
 | REF ID support                 |     ✅     |
-| Auto-upgrade mine              |     ✅     |
-| Auto-purchase mine             |     ✅     |
-| Auto-upgrade inventory         |     ✅     |
-| Auto-upgrade cart              |     ✅     |
-| Auto-expeditions               |     ✅     |
-| Daily rewards claiming         |     ✅     |
+| Auto-paint                     |     ✅     |
+| Auto-watch ads(NEW)            |     ✅     |
+| Auto-upgrade support           |     ✅     |
+| Template management            |     ✅     |
+| Auto-code enter                |     ✅     |
+| Reward claiming                |     ✅     |
 | Auto-Joining channels          |     ✅     |
 | Pyrogram .session support      |     ✅     |
 | Stats on your accounts         |     ✅     |
@@ -32,17 +32,17 @@
 | SLEEP_TIME             |            Sleep time between cycles (by default - [3600, 7200])            |
 | START_DELAY            |           Delay between sessions at start (by default - [5, 25])            |
 | AUTO_TASK              |               Completing all avaliable tasks (default - True)               |
-| AUTO_MINING            |                      Collecting rewards for mining(default - True)          |
+| RANDOM_DELAY_IN_RUN    |          Delay before starting the script(default - [30, 60]                |
+| CLAIM_REWARD           |                     Collecting rewards (default - True)                     |
 | AUTO_BUY_MINE          |                    Auto purchase mines (default - True)                     |
-| AUTO_UPGRADE           |                    Auto upgrading (default - True)                          |
-| UPGRADE_MINE           |                     Auto upgrading mines (default - True)                   |
+| WATCH_ADS              |                    Auto watch ads (default - True)                          |
+| AUTO_UPGRADE           |                     Auto upgrading (default - True)                         |
 | UPGRADE_MINERS         |                    Auto upgrading miners (default - True)                   |
-| UPGRADE_INVENTORY      |                   Auto upgrading inventory (default - True)                 |
-| UPGRADE_CART           |                     Auto upgrade carts (default - True)                     |
-| MAX_CART_LEVEL         |                  Max cart level for upgrade (default - 2)                   |
-| EXPEDITIONS            |                   Auto-send expeditions (default - True)                    |
-| CUSTOM_EXPEDITION_COST |                Custom price for expedition (default - 10000)                |
-| MIN_EXP_DURATION       |                 Minimum expedition duration (default - 360)                 |
+| AUTO_DRAW              |                   Auto draw on selected template (default - True)           |
+| ENTER_CODE             |                     Auto enter selected code (default - True)               |
+| NIGHT_MODE             |                   Anit ban system (default - True)                          |
+| NIGHT_TIME             |                Sleepint time (default - [0, 7])                             |
+| USE_PROXY              |                Auto binding your proxy to sessions                          |
 | NIGHT_MODE             |                   Sleeping during night(default - True)                     |
 | NIGHT_TIME             |                   Sleeping time(default - (0, 7)                            |
 | JOIN_TG_CHANNELS       |              Join channels for tasks(UNSAFE) (default - False)              |
@@ -53,8 +53,8 @@
 
 # Installation💨
 ```shell
-git clone https://github.com/DesertScripts/goblinminebot.git
-cd goblinminebot
+git clone https://github.com/DesertScripts/notpixelbot.git
+cd notpixelbot
 run.bat
 ```
 
