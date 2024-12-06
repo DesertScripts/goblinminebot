@@ -7,5 +7,5 @@ services:
     stop_signal: SIGINT
     restart: unless-stopped
     command: "python3 main.py -a 1"
-    volumes:
+    volums:
       - .:/app
