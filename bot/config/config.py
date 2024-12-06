@@ -23,10 +23,11 @@ ENERGY_LIMIT_MAX: int = 6
 RECHARGE_SPEED_MAX: int = 7
 AUTO_DRAW: bool = True
 ENTER_CODE: bool = True
-CODE: list[str] = []
+CODE: list[str] = [happy_halloween]
 CUSTOM_TOURNAMENT_TEMPLATE: bool = True
 TOURNAMENT_TEMPLATE_ID: str = ""
 NIGHT_MODE: bool = True
+NIGHT_TIME: list[int] = [0, 7]
 USE_PROXY: bool = True
 
 
