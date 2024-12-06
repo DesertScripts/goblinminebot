@@ -43,7 +43,7 @@ async def main():
 
         accounts = await Accounts().get_accounts()
 
-        tasks = [
+        tasks = []
 
         for thread, account in enumerate(accounts):
             session_name, phone_number, proxy = account.values()
