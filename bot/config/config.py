@@ -10,25 +10,30 @@ API_HASH: str
 SLEEP_TIME: list[int] = [3600, 7200]
 START_DELAY: list[int] = [5, 25]
 
+ USE_RANDOM_DELAY_IN_RUN: bool = True
+ RANDOM_DELAY_IN_RUN: list[int] = [30, 60]
+
 
 AUTO_TASK: bool = True
-AUTO_MINING: bool = True
-AUTO_BUY_MINE: bool = True
-AUTO_UPGRADEL: bool = True
-CLAIM_DAILY_REWARDS: bool = True
-UPGRADE_MINE: bool = True
-UPGRADE_MINERS: bool = True
-UPGRADE_INVENTORY: bool = True
-UPGRADE_CART: bool = True
-MAX_CART_LEVEL: int
-EXPEDITIONSL: bool = True
-CUSTOM_EXPEDITION_COST: list[int]
+CLAIM_REWARD: bool = True
+WATCH_ADS: bool = True
+AUTO_UPGRADE: bool = True
+PAINT_REWARD_MAX: int = 7
+ENERGY_LIMIT_MAX: int = 6
+RECHARGE_SPEED_MAX: int = 7
+AUTO_DRAW: bool = True
+ENTER_CODE: bool = True
+CODE: list[str] = []
+CUSTOM_TOURNAMENT_TEMPLATE: bool = True
+TOURNAMENT_TEMPLATE_ID: str = ""
 NIGHT_MODE: bool = True
+USE_PROXY: bool = True
+
 
 
 JOIN_TG_CHANNELS: bool = False
 USE_REF: bool = True
-REF_ID: str = '77513450415'
+REF_ID: str = 'f7751345041'
 
 
 settings = Settings()
